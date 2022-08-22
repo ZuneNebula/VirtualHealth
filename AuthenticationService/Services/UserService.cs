@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AuthenticationService.Services
 {
-    public class UserService
+    public class UserService: IUserService
     {
         private readonly DataContext dataContext;
         public UserService(DataContext dataContext)
