@@ -86,3 +86,7 @@ E:\code\dotnet\VirtualHealth\AuthenticationService\obj\Debug\net6.0\refint\Authe
 E:\code\dotnet\VirtualHealth\AuthenticationService\obj\Debug\net6.0\AuthenticationService.pdb
 E:\code\dotnet\VirtualHealth\AuthenticationService\obj\Debug\net6.0\AuthenticationService.genruntimeconfig.cache
 E:\code\dotnet\VirtualHealth\AuthenticationService\obj\Debug\net6.0\ref\AuthenticationService.dll
+E:\code\dotnet\VirtualHealth\AuthenticationService\bin\Debug\net6.0\JetBrains.Annotations.dll
+E:\code\dotnet\VirtualHealth\AuthenticationService\bin\Debug\net6.0\Silverback.Core.dll
+E:\code\dotnet\VirtualHealth\AuthenticationService\bin\Debug\net6.0\Silverback.Integration.dll
+E:\code\dotnet\VirtualHealth\AuthenticationService\bin\Debug\net6.0\Silverback.Integration.Kafka.dll

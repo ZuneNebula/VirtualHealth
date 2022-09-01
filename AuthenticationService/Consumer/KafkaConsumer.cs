@@ -1,0 +1,24 @@
+﻿using AuthenticationService.Models;
+using AuthenticationService.Services;
+
+namespace AuthenticationService.Consumer
+{
+    public class KafkaConsumer
+    {
+        private readonly IServiceProvider _serviceProvider;
+
+        public KafkaConsumer(IServiceProvider serviceProvider)
+        {
+            this._serviceProvider = serviceProvider;
+        }
+
+        public async Task OnMessageReceived(User user)
+        {
+            using (var scope = _serviceProvider.CreateScope())
+            {
+                var service = scope.ServiceProvider.GetRequiredService<IUserService>();
+                service.CreateAsync(user).Wait();
+            }
+        }
+    }
+}

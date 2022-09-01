@@ -15,7 +15,7 @@ namespace UserService.Controllers
         private readonly DoctorsService doctorService;
 
         private readonly string bootstrapServers = "localhost:9092";
-        private readonly string topic = "test";
+        private readonly string topic = "test2";
 
         public DoctorController(DoctorsService doctorsService)
         {
